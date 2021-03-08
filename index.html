@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Comandos NeoVim</title>
+    <script src="https://kit.fontawesome.com/f6d9f12e97.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="flex_title"> 
+            <h1 class="Titulo">Comandos de mi NeoVim</h1> 
+        </div>
+    </header>
+    <nav>
+        <div class="Separador"><i class="fas fa-book-open libro"></i></div>
+    </nav>
+    <div class="comandos_basicos">
+
+        <div class="grid-container__movimientos">
+            <div class="grid-item__movimientos-title">Comandos de Movimiento</div>
+            <div class="grid-item__movimientos comandos">h</div>
+            <div class="grid-item__movimientos descripcion">Moverse a la izquierda</div>
+            <div class="grid-item__movimientos icon"><i class="fas fa-arrow-alt-circle-left"></i></div>
+            <div class="grid-item__movimientos comandos">j</div>
+            <div class="grid-item__movimientos descripcion">Moverse hacia abajo</div>
+            <div class="grid-item__movimientos icon"><i class="fas fa-arrow-alt-circle-down"></i></div>
+            <div class="grid-item__movimientos comandos">k</b></div>
+            <div class="grid-item__movimientos descripcion">Moverse hacia arriba</div>
+            <div class="grid-item__movimientos icon"><i class="fas fa-arrow-alt-circle-up"></i></div> 
+            <div class="grid-item__movimientos comandos">l</div>
+            <div class="grid-item__movimientos descripcion">Moverse a la derecha</div>
+            <div class="grid-item__movimientos icon"><i class="fas fa-arrow-alt-circle-right"></i></div> 
+        </div>  
+
+        <div class="grid-container__modos">
+            <div class="grid-item__modos-title">Comandos de los Modos</div>
+            <div class="grid-item__modos comandos">i</div>
+            <div class="grid-item__modos descripcion">Modo Insertar - Añadir y editar texto</div>
+            <div class="grid-item__modos comandos">v</div>
+            <div class="grid-item__modos descripcion">Modo Visual - Copiar, cortar y pegar</div>
+            <div class="grid-item__modos comandos esc">ESC</div>
+            <div class="grid-item__modos descripcion esc">Salir de algún modo y entrar en Modo Comando(normal)</div>
+        </div>
+
+        <div class="grid-container__copypaste">
+            <div class="grid-item__copypaste-title">Copiar, Cortar y Pegar</div>
+            <div class="grid-item__copypaste-subtitle">Comandos para el Modo Visual</div>
+            <div class="grid-item__copypaste comandos">y</div>
+            <div class="grid-item__copypaste descripcion">Copiar lo seleccionado</div>
+            <div class="grid-item__copypaste comandos">x</div>
+            <div class="grid-item__copypaste descripcion">Cortar lo seleccionado</div>
+            <div class="grid-item__copypaste comandos">p</div>
+            <div class="grid-item__copypaste descripcion">Pegar <b>después</b> del cursor</div>
+            <div class="grid-item__copypaste comandos">Mayus-p</div>
+            <div class="grid-item__copypaste descripcion">Pegar <b>antes</b> del cursor</div>
+        </div>
+
+        <div class="grid-container__unredo">
+            <div class="grid-item__unredo-title">Comandos Undo y Redo</div>
+            <div class="grid-item__unredo comandos">u</div>
+            <div class="grid-item__unredo descripcion">Undo, Deshacer o "CTRL-Z"</div>
+            <div class="grid-item__unredo comandos">CTRL-r</div>
+            <div class="grid-item__unredo descripcion">Redo, rehacer o "CTRL-Y"</div>
+        </div>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,173 @@
+
+body{
+    background-color: #473335;
+}
+.div_header{
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+}
+.Titulo{
+   font-size: 65px; 
+   background-color: #548687;
+   padding: 10px; 
+   margin: 0;
+   text-align: center;
+   /*font-family: 'Caveat', cursive;*/
+   color: #BEC5AD;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.Separador{
+    display: flex; 
+    background-color: #B96D40;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+.libro{
+    font-size: 25px;
+    color: #BEC5AD;
+}
+.comandos_basicos{    
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #1e1e1f;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Diseño de comandos de movimiento */
+.grid-container__movimientos{
+    display: grid;
+    background-color: #BEC5AD;
+    grid-template-columns: 45px 220px 45px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px;
+}
+.grid-item__movimientos{
+    text-align: center;
+    border-bottom: 2px solid #B96D40;
+    margin-bottom: 5px;
+}
+
+.grid-item__movimientos-title{
+    grid-column: 1/ span 3;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1f;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 5px;
+}
+.grid-item__movimientos.comandos{
+    font-weight: 500;
+}
+/* Fin comandos de Movimientos */
+
+.grid-container__modos{
+    display: grid;
+    background-color: #BEC5AD;
+    padding: 15px;
+    margin: 10px;
+    grid-template-columns: 45px 265px;
+    box-shadow: 3px 3px;
+}
+
+.grid-item__modos-title{
+    grid-column: 1/span 2;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1f;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 5px;
+}
+.grid-item__modos{ 
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #B96D40;
+}
+.grid-item__modos.comandos{
+    font-weight: 500; 
+}
+/* Estas líneas son para centrar el ESC, hice al grid item un flex container y el contenido es el flex item*/
+.grid-item__modos.comandos.esc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Inteligente no? */
+
+/* Diseño de Copy, Cut y Paste */
+.grid-container__copypaste{
+    display: grid;
+    background-color: #BEC5AD;
+    padding: 15px;
+    margin: 10px;
+    grid-template-columns: 75px 235px;
+    box-shadow: 3px 3px;
+}
+.grid-item__copypaste-title{
+    grid-column: 1/span 2;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1f;
+    font-weight: 500;
+    font-size: 30px;
+}
+.grid-item__copypaste-subtitle{
+    grid-column: 1/span 2;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1f;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px; 
+}
+.grid-item__copypaste{
+    text-align: center;  
+    margin-bottom: 5px;
+    border-bottom: 2px solid #B96D40;
+}
+.grid-item__copypaste.comandos{
+    font-weight: 500;
+}
+/* Fin de Copy, Cut y Paste */
+
+/* Diseño de los comandos Undo y Redo*/
+.grid-container__unredo{
+    display: grid;
+    background-color: #BEC5AD;
+    padding: 15px;
+    margin: 10px;
+    grid-template-columns: 65px 245px;
+    box-shadow: 3px 3px;
+}
+.grid-item__unredo-title{
+    grid-column: 1/span 2;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#1e1e1f;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 5px;
+}
+.grid-item__unredo.comandos{
+    font-weight: 500;
+}
+.grid-item__unredo{ 
+    text-align: center;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #B96D40;
+}
+/* Centrar el contenido */
+.grid-item__unredo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* Fin de Comando Undo y redo */
